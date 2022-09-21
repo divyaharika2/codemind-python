@@ -7,6 +7,3 @@ if s>n:
     print("True")
 else:
     print("False")
-    
-    
-        
