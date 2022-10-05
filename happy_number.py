@@ -1,14 +1,13 @@
 n=int(input())
-while True:
+t=n
+while t>=10:
     s=0
-    while n>0:
-        r=n%10
-        n=n//10
-        s+=r**2
-    n=s
-    if n<=9:
-        break      
-if n==1 or n==7:
+    while t>0:
+        r=t%10
+        s=s+(r**2)
+        t=t//10
+    t=s
+if t==1:
     print("True")
 else:
     print("False")
