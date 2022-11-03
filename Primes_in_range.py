@@ -7,10 +7,10 @@ def isprime(n):
             if n%i==0:
                 return False
         return True
-n=int(input())
+c=0    
 m=int(input())
-c=0
-for i in range(n,m+1):
+n=int(input())
+for i in range(m,n+1):
     if isprime(i):
         c+=1
 print(c)
